@@ -1,0 +1,47 @@
+import turtle
+##1
+#turtle.forward(100)
+#turtle.right(144)
+#turtle.forward(100)
+#turtle.right(144)
+#turtle.forward(100)
+#turtle.right(144)
+#turtle.forward(100)
+#turtle.right(144)
+#turtle.forward(100)
+##2
+#turtle.begin_poly()
+#turtle.begin_fill()
+#turtle.forward(200)
+#turtle.right(90)
+#turtle.forward(100)
+#turtle.right(30)
+#turtle.forward(200)
+#turtle.right(120)
+#turtle.forward(200)
+#turtle.right(30)
+#turtle.forward(100)
+#turtle.end_fill()
+#turtle.end_poly()
+#shape = turtle.get_poly()
+#turtle.register_shape("shape",shape)
+#turtle.shape("shape")
+#turtle.fd(100)
+#3
+#turtle.register_shape("duck1.gif")
+#turtle.shape("duck1.gif")
+#turtle.fd(100)
+#4
+for i in range(360):
+	turtle.fd(200)
+	turtle.right(40)
+	turtle.fd(100)
+	turtle.right(100)
+	turtle.fd(50)
+	turtle.penup()
+	turtle.home()
+	turtle.pendown()
+	turtle.right(i)
+
+
+turtle.mainloop()
